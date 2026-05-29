@@ -7,10 +7,10 @@ footer {
 section {
     font-size: 1.5rem;
 }
-img.banner {
+banner-img {
   width: 100%;
-  height: auto;
-  display: block; /* Removes unwanted space below the image */
+  height: 100vh;
+  background-size: cover;
 }
 body {
     font-family: 'Finlandica Headline', sans-serif;
