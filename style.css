@@ -18,23 +18,23 @@ body {
     color:aliceblue;
 }
 .image-container {
-    display: flex;     /* Aligns items side-by-side */
-    gap: 10px;           /* Adds space between the images */
+    display: flex;     
+    gap: 10px;           
 }
 .image-container img {
-    width: 25%;      /* Makes each image take up half the container's width */
-    height: auto;    /* Maintains aspect ratio */    
+    width: 25%;      
+    height: auto;       
 }
 .zoomable {
-    width: 300px; /* original size */
-    transition: transform 0.3s ease; /* smooth transition */
+    width: 300px; 
+    transition: transform 0.3s ease; 
     cursor: zoom-in;
 }
 .zoomed {
-    transform: scale(2); /* makes image 2x larger */
+    transform: scale(2); 
     cursor: zoom-out;
     position: relative;
-    z-index: 10; /*ensures it stays on top */
+    z-index: 10; 
 }
 
 .container {
@@ -47,6 +47,3 @@ body {
     border: 1px solid #ccc;
 }
 
-object-position: center;
-object-position top;
-object-position: 25% 75%;
