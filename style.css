@@ -47,3 +47,11 @@ body {
     border: 1px solid #ccc;
 }
 
+summary {
+    margin-top: 100px;
+}
+
+a {
+    color: pink;
+    font-size: 24px; 
+}
