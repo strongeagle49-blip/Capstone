@@ -55,3 +55,21 @@ a {
     color: pink;
     font-size: 24px; 
 }
+
+#side-image {
+    position: fixed;
+    left: 0;
+    top:  0;
+    width: 150px;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#right-image {
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+}
