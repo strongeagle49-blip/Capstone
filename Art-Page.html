@@ -6,7 +6,19 @@
     <!-- Google Fonts embed-->
     <link href="https://fonts.googleapis.com/css2?family=Finlandica+Headline:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style> 
-    body {background-color:rgb(22, 22, 22);}   
+    body {background-color:rgb(22, 22, 22);}
+    .container {
+        position: relative;
+        min-height: 100vh;
+    }   
+    .background-column {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+        height: 100%;
+        z-index: -1;
+    }
 </style>
 </head>
 <section>
@@ -59,9 +71,15 @@
 </h1>
 
 <h1>
-<img src="images/column.png" id="side-image" alt="side">
-<img src="images/column.png" id="right-image" alt="side">
+    <div class="column">
+        <img src="images/column.png" id="side-image" alt="side"> 
+    </div>
 </h1> 
+    <div>
+        <div class="background-column">
+             <img src="images/column.png" id="right-image" alt="side">
+        </div>
+    </div>
 
 <h1>
  <details>
