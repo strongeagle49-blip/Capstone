@@ -26,7 +26,7 @@ body {
     height: auto;       
 }
 .zoomable {
-    width: 300px; 
+    width: 150px; 
     transition: transform 0.3s ease; 
     cursor: zoom-in;
 }
