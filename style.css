@@ -17,3 +17,36 @@ banner.png {
 body {
     color:aliceblue;
 }
+.image-container {
+    display: flex;     /* Aligns items side-by-side */
+    gap: 10px;           /* Adds space between the images */
+}
+.image-container img {
+    width: 25%;      /* Makes each image take up half the container's width */
+    height: auto;    /* Maintains aspect ratio */    
+}
+.zoomable {
+    width: 300px; /* original size */
+    transition: transform 0.3s ease; /* smooth transition */
+    cursor: zoom-in;
+}
+.zoomed {
+    transform: scale(2); /* makes image 2x larger */
+    cursor: zoom-out;
+    position: relative;
+    z-index: 10; /*ensures it stays on top */
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+object-position: center;
+object-position top;
+object-position: 25% 75%;
