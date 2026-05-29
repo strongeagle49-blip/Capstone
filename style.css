@@ -1,11 +1,3 @@
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-}
 footer {
     display: flex;
     flex-direction: column;
@@ -15,3 +7,12 @@ footer {
 section {
     font-size: 1.5rem;
 }
+img.banner {
+  width: 100%;
+  height: auto;
+  display: block; /* Removes unwanted space below the image */
+}
+body {
+    font-family: 'Finlandica Headline', sans-serif;
+ }
+        
